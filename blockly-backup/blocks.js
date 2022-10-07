@@ -1,4 +1,3 @@
-/*
 Blockly.Blocks['line_ifttt'] = {
   init: function () {
     this.appendValueInput("line_ifttt_event")
@@ -29,7 +28,6 @@ Blockly.Blocks['line_ifttt'] = {
     this.setHelpUrl("https://buberhu.blogspot.com/2018/10/webduinolineifttt.html");
   }
 };
-*/
 // ---------------------------
 Blockly.Blocks['linenotify_set'] = {
   init: function() {
