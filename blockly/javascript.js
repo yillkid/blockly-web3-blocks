@@ -35,8 +35,6 @@ Blockly.JavaScript['linenotify_sendmsg'] = function(block) {
   // TODO: Assemble JavaScript into code variable.
   var code = "line_notify($.extend({},"+variable_name_+",{message:"+value_notify_sendmsg+"}));\n";
   
-  console.log("hello, good" + value_notify_sendmsg);
-  
   return code;
 };
 
