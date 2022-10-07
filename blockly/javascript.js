@@ -1,3 +1,4 @@
+/*
 Blockly.JavaScript['line_ifttt'] = function(block) {
   var event = Blockly.JavaScript.valueToCode(block, 'line_ifttt_event', Blockly.JavaScript.ORDER_ATOMIC);
   var key = Blockly.JavaScript.valueToCode(block, 'line_ifttt_key', Blockly.JavaScript.ORDER_ATOMIC);
@@ -19,6 +20,7 @@ Blockly.JavaScript['line_ifttt'] = function(block) {
 
   return code;
 };
+*/
 // ---------------------------
 Blockly.JavaScript['linenotify_set'] = function(block) {
   var variable_name_ = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('name_'), Blockly.Variables.NAME_TYPE);
@@ -38,7 +40,7 @@ Blockly.JavaScript['linenotify_sendmsg'] = function(block) {
 
   return code;
 };
-
+/*
 Blockly.JavaScript['linenotify_sendstk'] = function(block) {
   var variable_name_ = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('name_'), Blockly.Variables.NAME_TYPE);
   var value_notify_sendstkpkg = Blockly.JavaScript.valueToCode(block, 'notify_sendstkpkg', Blockly.JavaScript.ORDER_ATOMIC);
@@ -47,7 +49,8 @@ Blockly.JavaScript['linenotify_sendstk'] = function(block) {
   var code = "line_notify($.extend({},"+variable_name_+",{message:' ',stickerPackageId:"+value_notify_sendstkpkg+",stickerId:"+value_notify_sendstkid+"}));\n";
   return code;
 };
-
+*/
+/*
 Blockly.JavaScript['linenotify_sendimg'] = function(block) {
   var variable_name_ = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('name_'), Blockly.Variables.NAME_TYPE);
   var value_notify_sendimg_s = Blockly.JavaScript.valueToCode(block, 'notify_sendimg_s', Blockly.JavaScript.ORDER_ATOMIC);
@@ -139,3 +142,4 @@ Blockly.JavaScript['linebot_sendaudio'] = function(block) {
   var code = "line_bot($.extend({},"+variable_name_+",{a_duration:"+value_bot_sendaudio_s+",a_originalContentUrl:"+value_bot_sendaudio+"}));\n";
   return code;
 };
+*/
