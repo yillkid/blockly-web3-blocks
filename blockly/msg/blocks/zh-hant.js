@@ -1,4 +1,4 @@
-Blockly.Msg.LINENotify_Set = '設定 LINE Notify';
+Blockly.Msg.LINENotify_Set = '設定 錢包';
 Blockly.Msg.LINENotify_Token = '權杖 :';
 Blockly.Msg.LINEBot_Set = '設定 LINE Bot';
 Blockly.Msg.LINEBot_Token = 'token :';
@@ -6,7 +6,7 @@ Blockly.Msg.LINEBot_Userid = 'user ID :';
 Blockly.Msg.LINEBot_Onrece = '開始接收訊息';
 Blockly.Msg.LINEBot_Ondo = '執行';
 Blockly.Msg.LINEBot_Recemsg = '接收的訊息';
-Blockly.Msg.LINEBot_Sendmsg = '傳送訊息 :';
+Blockly.Msg.LINEBot_Sendmsg = '寫入測試鏈 :';
 Blockly.Msg.LINEBot_Sendstk = '傳送表情符號，';
 Blockly.Msg.LINEBot_Sendimg = '傳送圖片';
 Blockly.Msg.LINEBot_SendimgP = '預覽縮圖網址 :';

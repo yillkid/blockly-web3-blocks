@@ -64,6 +64,7 @@ Blockly.Blocks['linenotify_sendmsg'] = {
   }
 };
 
+/*
 Blockly.Blocks['linenotify_sendstk'] = {
   init: function() {
     this.appendDummyInput()
@@ -258,10 +259,4 @@ Blockly.Blocks['linebot_sendaudio'] = {
  this.setHelpUrl("https://buberhu.blogspot.com/2018/10/webduinolineline-bot.html");
   }
 };
-
-
-
-
-
-
-
+*/
