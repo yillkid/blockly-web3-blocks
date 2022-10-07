@@ -30,11 +30,13 @@ Blockly.JavaScript['linenotify_set'] = function(block) {
 
 Blockly.JavaScript['linenotify_sendmsg'] = function(block) {
   
-  console.log("hello, good");
   var variable_name_ = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('name_'), Blockly.Variables.NAME_TYPE);
   var value_notify_sendmsg = Blockly.JavaScript.valueToCode(block, 'notify_sendmsg', Blockly.JavaScript.ORDER_ATOMIC);
   // TODO: Assemble JavaScript into code variable.
   var code = "line_notify($.extend({},"+variable_name_+",{message:"+value_notify_sendmsg+"}));\n";
+  
+  console.log("hello, good" + value_notify_sendmsg);
+  
   return code;
 };
 
