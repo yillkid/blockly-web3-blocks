@@ -1,7 +1,7 @@
 +(function (window, document) {
 
   'use strict';
-
+/*
   function line_ifttt(event, key, v1, v2, v3) {
     var obj = {};
     if (v1 != "''" || v1.length > 0) {
@@ -18,7 +18,7 @@
       console.log(e);
     });
   }
-
+*/
   function line_notify(data) {
     console.log("hello QQQQ");
     $.post('https://script.google.com/macros/s/AKfycbx8CHul0yv0cPv-5DJLDz9hY1kZqQjm_7iLckjwKGEsjmtOuOc/exec',
@@ -36,7 +36,7 @@
       });
   }
 
-  window.line_ifttt = line_ifttt;
+  // window.line_ifttt = line_ifttt;
   window.line_notify = line_notify;
   window.line_bot = line_bot;
 
