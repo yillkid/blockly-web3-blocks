@@ -1,0 +1,15 @@
+{
+  "type": "write_to_testnet",
+  "message0": "寫入測試鏈 %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "value"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 120,
+  "tooltip": "",
+  "helpUrl": ""
+}
