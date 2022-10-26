@@ -1,0 +1,11 @@
+<xml>
+  <category>
+    <name>myBlocks</name><replace>我的積木</replace>
+  </category>
+  <category>
+    <name>myCategory1</name><replace>目錄 1</replace>
+  </category>
+  <category>
+    <name>myCategory2</name><replace>目錄 2</replace>
+  </category>
+</xml>

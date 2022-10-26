@@ -1,0 +1,10 @@
+將package.nw目錄覆蓋C:\Webduino\WebBit\package.nw可新增myBlocks自訂積木。
+
+
+myBlocks自訂積木連結設定
+http://localhost:20975/myBlocks/blockly.json
+
+新增
+Code.customTab.$__add__('http://localhost:20975/myBlocks/blockly.json');
+移除
+Code.customTab.$__remove__('http://localhost:20975/myBlocks/blockly.json');

@@ -1,15 +1,15 @@
 {
-  "type": "write_to_testnet",
-  "message0": "寫入測試鏈 %1",
-  "args0": [
-    {
-      "type": "input_value",
-      "name": "value"
-    }
+  "types": ["digitalwrite", "digitalread"],
+  "category": "catPlus",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
   ],
-  "previousStatement": null,
-  "nextStatement": null,
-  "colour": 120,
-  "tooltip": "",
-  "helpUrl": ""
+  "dependencies": [
+    "myBlocks.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml"
 }
+

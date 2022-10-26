@@ -1,0 +1,38 @@
+<category id="catBasicPackage" COLOUR="60" index="100">
+  <block type="addCustomBlocks">
+    <value name="url">
+      <block type="text">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+  </block>
+  <block type="basic_irrecv_on">
+    <field name="pin_">1</field>
+  </block>
+  <block type="basic_irrecv_ac_on">
+    <field name="pin_">1</field>
+  </block>
+  <block type="basic_irrecv_value"></block>
+  <block type="basic_irled_launch">
+    <field name="pin_">2</field>
+    <value name="code_">
+      <block type="text">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+  </block>
+
+  <block type="basic_ultrasonic_distance">
+    <field name="trig_">3</field>
+    <field name="echo_">9</field>
+  </block>
+
+  <!-- <block type="basic_servo_angle"></block> -->
+  <block type="basic_servo_angle_custom">
+    <value name="angle_">
+      <block type="math_number">
+        <field name="NUM">90</field>
+      </block>
+    </value>
+  </block>
+</category>

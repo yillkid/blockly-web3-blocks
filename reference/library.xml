@@ -1,0 +1,138 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="[W@4+AhwttilML}I9hPX" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">digitalWrite</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Q(:brO+X,|[FelOFO~nf">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Wn9p#j:b~I04W]VLJun*">
+            <field name="TEXT">digitalWrite</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="~HB%4.$a@8I33fv2FxRH">
+            <field name="INPUTNAME">pin</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="R-5RClk?+~(j7CrEKM3{">
+                <field name="TEXT">(</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="`3tdJ0FkM@QLqu#3P;QL"></shadow>
+              <block type="type_number" id="B^N91PI{JGay4^~~c}`L"></block>
+            </value>
+            <next>
+              <block type="input_dummy" id="2De`$LCiactHC:s}w9ZH">
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="hlV}A42bs)e*?n8/Qp|+">
+                    <field name="TEXT">,</field>
+                    <next>
+                      <block type="field_dropdown" id="i%!0w8wf!B}SjVb@jWi4">
+                        <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                        <field name="FIELDNAME">mode</field>
+                        <field name="USER0">HIGH</field>
+                        <field name="CPU0">1</field>
+                        <field name="USER1">LOW</field>
+                        <field name="CPU1">0</field>
+                        <next>
+                          <block type="field_static" id="usu?*hg4;mXekkhx,85b">
+                            <field name="TEXT">)</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="7_GD*_PTK)P@R^:#-~us" deletable="false" movable="false">
+        <field name="TEXT">digitalWrite(pin, value)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="3J8KVMSW49sIc_40u~ZR" deletable="false" movable="false">
+        <field name="TEXT">https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="%,jzb)3d9n31#QUu@gWV"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="D`cSVGF4)=.w2,ejp!Rn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="/{{@@Fd{T87=x(DohzU_">
+        <mutation colour="#6d5ba5"></mutation>
+        <field name="HUE">255</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="ce|:B%ag~n.~7?M^RDpT" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">digitalRead</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="[o8s`p3(UhCE[Z1$p1!y">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="T5Nx5?%UC#$Dw+~)qi53">
+            <field name="TEXT">digitalRead</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="V+,tKRr#rBDi8#4zrCKI">
+            <field name="INPUTNAME">pin</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="EAIj]Qb|lU_-L~)*i##Y">
+                <field name="TEXT">(</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="_3k1{}6[{,,PXQE2W$=A"></shadow>
+              <block type="type_number" id="tW3U9eMOz~A9aPu2nJq*"></block>
+            </value>
+            <next>
+              <block type="input_dummy" id="vrY?@2})P4wlC!g%9MQ9">
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="npAfQRg#*mLa[L4j-2Bi">
+                    <field name="TEXT">)</field>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="GbyF4%o6{p}Bf+CK2J1/" deletable="false" movable="false">
+        <field name="TEXT">digitalRead(pin)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="Q1U.FLSO^YkyVPc#/ETW" deletable="false" movable="false">
+        <field name="TEXT">https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="uxp`ho6bhRcW.gbU9G+#"></shadow>
+      <block type="type_number" id="m7W(n$8mS*vSJd=6H~Ew"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="{bA+i:VPHV1k6+]Z$tA8">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block></xml>
